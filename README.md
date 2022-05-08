@@ -8,3 +8,6 @@
 - 2017-Ming-Hsuan Yang-[How to Get Your CVPR Paper Rejected](https://www.youtube.com/watch?v=jp_TGMU4ASI) [[Slide](http://faculty.ucmerced.edu/mhyang/course/eecs286-2016/lectures/How%20to%20get%20your%20CVPR%20paper%20rejected.pptx)]
 - [Paper_Writing_Tips](https://github.com/MLNLP-World/Paper_Writing_Tips)
 <!-- - [Some Collected Resources for New PhD Students from Prof. Philip Torr](https://www.robots.ox.ac.uk/~phst/) -->
+
+
+https://twitter.com/jbhuang0604/status/1490559552475041795
