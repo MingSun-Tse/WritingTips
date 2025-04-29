@@ -31,7 +31,6 @@
 @STRING{BMVC = "BMVC"}
 @STRING{ICPR = "ICPR"}
 @STRING{ICME = "ICME"}
-@STRING{NPAR = "NPAR"}
 @STRING{WACV = "WACV"}
 @STRING{OSDI = "IEEE Symposium on Operating Systems Design and Implementation"}
 @STRING{TIP = "TIP"}
@@ -109,7 +108,7 @@
   year={2019}
 }
 
-@inproceedings{jiang2020mnn,
+@inproceedings{mnn,
   title={MNN: A universal and efficient inference engine},
   author={Jiang, Xiaotang and Wang, Huan and Chen, Yiliu and Wu, Ziqi and Wang, Lichuan and Zou, Bin and Yang, Yafeng and Cui, Zongyang and Cai, Yu and Yu, Tianhang and others},
   booktitle={MLSys},
@@ -216,6 +215,12 @@
   year={2023}
 }
 
+@inproceedings{kim2024bksdm,
+  title={BK-SDM: A Lightweight, Fast, and Cheap Version of Stable Diffusion},
+  author={BoKyeong Kim and HyoungKyu Song and Thibault Castells and Shinkook Choi},
+  year={2024},
+  booktitle={ECCV},
+}
 
 @inproceedings{wei-2001-texture,
   title={Texture synthesis over arbitrary manifold surfaces},
@@ -422,7 +427,7 @@
   year={2016}
 }
 
-@inproceedings{goodfellow-2014-GAN,
+@inproceedings{goodfellow2014generative,
   title={Generative adversarial nets},
   author={Goodfellow, Ian and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua},
   booktitle={NeurIPS},
@@ -463,7 +468,7 @@
 @inproceedings{lee-2010-directional,
   title={Directional texture transfer},
   author={Lee, Hochang and Seo, Sanghyun and Ryoo, Seungtaek and Yoon, Kyunghyun},
-  booktitle=NPAR,
+  booktitle={NPAR},
   year={2010}
 }
 
@@ -627,13 +632,6 @@ year={2016}
   year={2014}
 }
 
-@article{Gonzalez-DIP,
-  title={Digital Image Processing (3rd Edition)},
-  author={Gonzalez, Rafael C. and Woods, Richard E.},
-  journal={Prentice Hall},
-  year={2008}
-}
-
 @article{Doodle-2016-semantic,
   title={Semantic style transfer and turning two-bit doodles into fine artworks},
   author={Champandard, Alex J},
@@ -715,14 +713,14 @@ year={2016}
 @inproceedings{bucilua2006model,
   title={Model compression},
   author={Buciluǎ, Cristian and Caruana, Rich and Niculescu-Mizil, Alexandru},
-  booktitle=SIGKDD,
+  booktitle={SIGKDD},
   year={2006},
 }
 
 @inproceedings{hinton2015distilling,
   title={Distilling the knowledge in a neural network},
   author={Hinton, Geoffrey and Vinyals, Oriol and Dean, Jeff},
-  booktitle = NIPSw,
+  booktitle={NeurIPS Workshop},
   year={2014}
 }
 
@@ -764,7 +762,7 @@ year={2016}
 @inproceedings{he2018soft,
   title={Soft Filter Pruning for Accelerating Deep Convolutional Neural Networks},
   author={He, Yang and Kang, Guoliang and Dong, Xuanyi and Fu, Yanwei and Yang, Yi},
-  booktitle=IJCAI,
+  booktitle={IJCAI},
   year={2018}
 }
 
@@ -780,7 +778,7 @@ year={2016}
 @inproceedings{MolTyrKar17,
   author =   {P. Molchanov and S. Tyree and T. Karras},
   title =     {Pruning Convolutional Neural Networks for Resource Efficient Inference},
-  booktitle = ICLR,
+  booktitle={ICLR},
   year =      {2017},
 }
 
@@ -1086,7 +1084,7 @@ inproceedings{pytorch,
 @inproceedings{chen2018darkrank,
   title={Darkrank: Accelerating deep metric learning via cross sample similarities transfer},
   author={Chen, Yuntao and Wang, Naiyan and Zhang, Zhaoxiang},
-  booktitle=AAAI,
+  booktitle={AAAI},
   year={2018}
 }
 
@@ -1360,7 +1358,7 @@ inproceedings{pytorch,
 @inproceedings{huang2018orthogonal,
   title={Orthogonal weight normalization: Solution to optimization over multiple dependent stiefel manifolds in deep neural networks},
   author={Huang, Lei and Liu, Xianglong and Lang, Bo and Yu, Adams and Wang, Yongliang and Li, Bo},
-  booktitle=AAAI,
+  booktitle={AAAI},
   year={2018}
 }
 
@@ -2122,12 +2120,11 @@ inproceedings{pytorch,
   year={2016},
 }
 
-@misc{ncnn,
+@inproceedings{ncnn,
   title = {{NCNN}},
   author = {Tencent},
   year = {2017},
-  howpublished = {\url{https://github.com/Tencent/ncnn}},
-  note = {Accessed: 2019-09-01},
+  url = {\url{https://github.com/Tencent/ncnn}},
 }
 
 @misc{mace,
@@ -2135,7 +2132,6 @@ inproceedings{pytorch,
   author = {Xiaomi},
   year = {2018},
   howpublished = {\url{https://github.com/XiaoMi/mace}},
-  note = {Accessed: 2019-09-01},
 }
 
 @misc{anakin,
@@ -2143,15 +2139,24 @@ inproceedings{pytorch,
   author = {Baidu},
   year = {2018},
   howpublished = {\url{https://github.com/PaddlePaddle/Anakin}},
-  note = {Accessed: 2019-09-01},
 }
 
-@misc{coreml,
+@inproceedings{coreml,
   title = {{CoreML}},
   author = {Apple},
   year = {2017},
-  howpublished = {\url{https://developer.apple.com/documentation/coreml}},
-  note = {Accessed: 2019-09-01},
+  url = {\url{https://developer.apple.com/documentation/coreml}},
+}
+
+
+
+
+# 华为HiAI平台最早上线时间是在2018年4月 ，随着华为P20系列手机的发布而正式推出。
+@inproceedings{hiai,
+  title = {{HiAi}},
+  author = {Huawei},
+  year = {2018},
+  url = {\url{https://developer.huawei.com/consumer/cn/hiai/}},
 }
 
 @misc{tflite,
@@ -2159,7 +2164,6 @@ inproceedings{pytorch,
   author = {Google},
   year = {2017},
   howpublished = {\url{https://tensorflow.google.cn/lite}},
-  note = {Accessed: 2019-09-01},
 }
 
 @misc{nnapi,
@@ -2167,7 +2171,6 @@ inproceedings{pytorch,
   author = {Google},
   year = {2016},
   howpublished = {\url{https://developer.android.google.cn/ndk/guides/neuralnetworks}},
-  note = {Accessed: 2019-09-01},
 }
 
 @misc{tvm,
@@ -2175,7 +2178,6 @@ inproceedings{pytorch,
   author = {DMLC},
   year = {2016},
   howpublished = {\url{https://github.com/dmlc/tvm}},
-  note = {Accessed: 2019-09-01},
 }
 
 @misc{xla,
@@ -2183,7 +2185,6 @@ inproceedings{pytorch,
   author = {Google},
   year = {2017},
   howpublished = {\url{https://developers.googleblog.com/2017/03/xla-tensorflow-compiled.html}},
-  note = {Accessed: 2019-09-01},
 }
 
 @misc{biglittle,
@@ -2191,7 +2192,6 @@ inproceedings{pytorch,
   author = {ARM},
   year = {2011},
   howpublished = {\url{https://www.arm.com/why-arm/technologies/big-little}},
-  note = {Accessed: 2019-09-01},
 }
 
 @misc{metal,
@@ -2199,7 +2199,6 @@ inproceedings{pytorch,
   author = {Apple},
   year = {2014},
   howpublished = {\url{https://developer.apple.com/metal/}},
-  note = {Accessed: 2019-09-01},
 }
 
 @misc{opencl,
@@ -2207,7 +2206,6 @@ inproceedings{pytorch,
   author = {Khronos, Group},
   year = {2009},
   howpublished = {\url{https://www.khronos.org/opencl/}},
-  note = {Accessed: 2019-09-01},
 }
 
 @misc{opengl,
@@ -2215,7 +2213,7 @@ inproceedings{pytorch,
   author = {Khronos, Group},
   year = {1992},
   howpublished = {\url{https://opengl.org/}},
-  note = {Accessed: 2019-09-01},
+  
 }
 
 @misc{vulkan,
@@ -2223,21 +2221,18 @@ inproceedings{pytorch,
   author = {Khronos, Group},
   year = {2015},
   howpublished = {\url{https://www.khronos.org/vulkan}},
-  note = {Accessed: 2019-09-01},
 }
 
 @misc{tfwinograd,
   title = {{TensorFlow Winograd}},
   author = {Google},
   howpublished = {\url{https://github.com/tensorflow/tensorflow/blob/9590c4c32dd4346ea5c35673336f5912c6072bf2/tensorflow/core/kernels/winograd\_transform.h}},
-  note = {Accessed: 2019-09-01},
 }
 
 @misc{macewinograd,
   title = {{MACE Winograd}},
   author = {Xiaomi},
   howpublished = {\url{https://github.com/XiaoMi/mace/blob/9b0b03c99cf73cd019050c6b9ee80a4753265da0/mace/ops/arm/fp32/conv_2d_3x3_winograd.cc}},
-  note = {Accessed: 2019-09-01},
 }
 
 
@@ -2696,13 +2691,6 @@ inproceedings{pytorch,
   pages =        {740-747},
 }
 
-@ARTICLE{SzeCheYanEme17,
-  author =       {V. Sze and Y. H. Chen and T. J. Yang and J. Emer},
-  title =        {Efficient processing of deep neural networks: A tutorial and survey},
-  journal =      {arXiv preprint arXiv:1703.09039},
-  year =         {2017},
-}
-
 @article{sze2017efficient,
   title={Efficient processing of deep neural networks: A tutorial and survey},
   author={Sze, Vivienne and Chen, Yu-Hsin and Yang, Tien-Ju and Emer, Joel S},
@@ -2711,6 +2699,26 @@ inproceedings{pytorch,
   number={12},
   pages={2295--2329},
   year={2017},
+}
+
+@article{wu2018resource,
+  title={资源受限的深度学习: 挑战与实践},
+  author={吴建鑫 and 高斌斌 and 魏秀参 and 罗建豪},
+  journal={中国科学: 信息科学},
+  volume={48},
+  number={5},
+  pages={501--510},
+  year={2018}
+}
+
+@article{xu2024lightweight,
+  title={轻量级深度神经网络模型适配边缘智能研究综述},
+  author={徐小华 and 周长兵 and 胡忠旭 and 林仕勋 and 喻振杰},
+  journal={计算机科学},
+  volume={51},
+  number={7},
+  pages={257--271},
+  year={2024}
 }
 
 @article{cheng2018recent,
@@ -2740,12 +2748,6 @@ inproceedings{pytorch,
   year={2020}
 }
 
-% article{wang2021emerging,
-%   title={Emerging Paradigms of Neural Network Pruning},
-%   author={Wang, Huan and Qin, Can and Zhang, Yulun and Fu, Yun},
-%   journal={arXiv preprint arXiv:2103.06460},
-%   year={2021}
-% }
 @inproceedings{wang2021emerging,
   title={Recent Advances on Neural Network Pruning at Initialization},
   author={Wang, Huan and Qin, Can and Zhang, Yulun and Fu, Yun},
@@ -2872,7 +2874,7 @@ inproceedings{pytorch,
 @inproceedings{heo2019knowledge,
   title={Knowledge transfer via distillation of activation boundaries formed by hidden neurons},
   author={Heo, Byeongho and Lee, Minsik and Yun, Sangdoo and Choi, Jin Young},
-  booktitle=AAAI,
+  booktitle={AAAI},
   year={2019}
 }
 
@@ -3525,7 +3527,7 @@ inproceedings{pytorch,
 @inproceedings{ma2020pconv,
   title={Pconv: The missing but desirable sparsity in dnn weight pruning for real-time execution on mobile devices},
   author={Ma, Xiaolong and Guo, Fu-Ming and Niu, Wei and Lin, Xue and Tang, Jian and Ma, Kaisheng and Ren, Bin and Wang, Yanzhi},
-  booktitle=AAAI,
+  booktitle={AAAI},
   year={2020}
 }
 
@@ -3534,6 +3536,41 @@ inproceedings{pytorch,
   author={Ma, Xiaolong and Niu, Wei and Zhang, Tianyun and Liu, Sijia and Lin, Sheng and Li, Hongjia and Wen, Wujie and Chen, Xiang and Tang, Jian and Ma, Kaisheng and others},
   booktitle={ECCV},
   year={2020},
+}
+
+
+# #vit
+@inproceedings{dosovitskiy2021image,
+  author       = {Alexey Dosovitskiy and Lucas Beyer and
+                  Alexander Kolesnikov and
+                  Dirk Weissenborn and
+                  Xiaohua Zhai and
+                  Thomas Unterthiner and
+                  Mostafa Dehghani and
+                  Matthias Minderer and
+                  Georg Heigold and
+                  Sylvain Gelly and
+                  Jakob Uszkoreit and
+                  Neil Houlsby},
+  title= {An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale},
+  booktitle={ICLR},
+  year= {2021},
+}
+@inproceedings{vit,
+  author       = {Alexey Dosovitskiy and Lucas Beyer and
+                  Alexander Kolesnikov and
+                  Dirk Weissenborn and
+                  Xiaohua Zhai and
+                  Thomas Unterthiner and
+                  Mostafa Dehghani and
+                  Matthias Minderer and
+                  Georg Heigold and
+                  Sylvain Gelly and
+                  Jakob Uszkoreit and
+                  Neil Houlsby},
+  title= {An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale},
+  booktitle={ICLR},
+  year= {2021},
 }
 
 % -- Auto-tuning related (Start)
@@ -3685,7 +3722,7 @@ inproceedings{pytorch,
 @inproceedings{fang2021contrastive,
   title={Contrastive Model Inversion for Data-Free Knowledge Distillation},
   author={Fang, Gongfan and Song, Jie and Wang, Xinchao and Shen, Chengchao and Wang, Xingen and Song, Mingli},
-  booktitle=IJCAI,
+  booktitle={IJCAI},
   year={2021}
 }
 
@@ -3885,7 +3922,7 @@ inproceedings{pytorch,
 @inproceedings{strubell2019energy,
   title={Energy and Policy Considerations for Deep Learning in NLP},
   author={Strubell, Emma and Ganesh, Ananya and McCallum, Andrew},
-  booktitle=ACL,
+  booktitle={ACL},
   year={2019}
 }
 
@@ -3906,7 +3943,7 @@ inproceedings{pytorch,
 @inproceedings{ronneberger2015u,
   title={U-net: Convolutional networks for biomedical image segmentation},
   author={Ronneberger, Olaf and Fischer, Philipp and Brox, Thomas},
-  booktitle=MICAI,
+  booktitle={MICAI},
   year={2015},
 }
 
@@ -4470,7 +4507,7 @@ Plenoxels: Radiance fields without neural networks.
 @inproceedings{strubell2019energy,
   title={Energy and Policy Considerations for Deep Learning in NLP},
   author={Strubell, Emma and Ganesh, Ananya and McCallum, Andrew},
-  booktitle=ACL,
+  booktitle={ACL},
   year={2019}
 }
 
@@ -4501,24 +4538,83 @@ Plenoxels: Radiance fields without neural networks.
   year={2017}
 }
 
-% Bert
-@article{devlin2018bert,
+##Bert
+@inproceedings{devlin2019bert,
   title={Bert: Pre-training of deep bidirectional transformers for language understanding},
   author={Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},
-  journal={arXiv preprint arXiv:1810.04805},
+  booktitle={NAACL},
+  year={2019}
+}
+
+
+##XLM
+@article{lample2019cross,
+  title={Cross-lingual Language Model Pretraining},
+  author={Guillaume Lample and   Alexis Conneau},
+  year={2019},
+  journal={arXiv preprint arXiv:1901.07291},
+}
+
+@article{yinhan2019roberta,
+  title={RoBERTa: A Robustly Optimized BERT Pretraining Approach},
+  author={Liu, Yinhan and Ott, Myle and Goyal, Naman and Du, Jingfei and Joshi, Mandar and Chen, Danqi and Levy, Omer and Lewis, Mike and Zettlemoyer, Luke and Stoyanov, Veselin},
+  year={2019},
+  journal={arXiv preprint arXiv:1907.11692},
+}
+
+##GPT-1
+@article{radford2018improving,
+  title={Improving language understanding with unsupervised learning},
+  author={Radford, Alec and Narasimhan, Karthik and Salimans, Tim and Sutskever, Ilya},
+  journal={OpenAI Blog},
   year={2018}
 }
 
-% GPT
+
+##GPT-2
 @article{radford2019language,
   title={Language models are unsupervised multitask learners},
   author={Radford, Alec and Wu, Jeffrey and Child, Rewon and Luan, David and Amodei, Dario and Sutskever, Ilya and others},
   journal={OpenAI blog},
-  volume={1},
-  number={8},
-  pages={9},
   year={2019}
 }
+
+##GPT-3
+@inproceedings{brown2020language,
+  title={Language models are few-shot learners},
+  author={Brown, Tom and Mann, Benjamin and Ryder, Nick and Subbiah, Melanie and Kaplan, Jared D and Dhariwal, Prafulla and Neelakantan, Arvind and Shyam, Pranav and Sastry, Girish and Askell, Amanda and others},
+  booktitle={NeurIPS},
+  year={2020}
+}
+
+##GPT-4
+@article{openai2023gpt,
+  title={GPT-4 Technical Report},
+  author={OpenAI and Josh Achiam and Steven Adler and Sandhini Agarwal and Lama Ahmad and Ilge Akkaya and Florencia Leoni Aleman and Diogo Almeida and Janko Altenschmidt and Sam Altman and Shyamal Anadkat and Red Avila and Igor Babuschkin and Suchir Balaji and Valerie Balcom and Paul Baltescu and Haiming Bao and Mohammad Bavarian and Jeff Belgum and Irwan Bello and Jake Berdine and Gabriel BernadettShapiro and Christopher Berner and Lenny Bogdonoff and Oleg Boiko and Madelaine Boyd and AnnaLuisa Brakman and Greg Brockman and Tim Brooks and Miles Brundage and et al.},
+  year={2023},
+  journal={arXiv preprint arXiv:2303.08774},
+}
+
+
+##T5
+@article{raffel2020exploring,
+  title={Exploring the limits of transfer learning with a unified text-to-text transformer},
+  author={Raffel, Colin and Shazeer, Noam and Roberts, Adam and Lee, Katherine and Narang, Sharan and Matena, Michael and Zhou, Yanqi and Li, Wei and Liu, Peter J},
+  journal={JMLR},
+  volume={21},
+  number={140},
+  pages={1--67},
+  year={2020}
+}
+
+
+@inproceedings{wu2023nextgpt,
+  title={NExT-GPT: Any-to-Any Multimodal LLM},
+  author={Wu, Shengqiong and Fei, Hao and Qu, Leigang and Ji, Wei and Chua, TatSeng},
+  year={2023},
+  booktitle={ICML},
+}
+
 
 % FMs survey
 @article{bommasani2021opportunities,
@@ -4528,21 +4624,85 @@ Plenoxels: Radiance fields without neural networks.
   year={2021}
 }
 
-% GPT-3
-@inproceedings{brown2020language,
-  title={Language models are few-shot learners},
-  author={Brown, Tom and Mann, Benjamin and Ryder, Nick and Subbiah, Melanie and Kaplan, Jared D and Dhariwal, Prafulla and Neelakantan, Arvind and Shyam, Pranav and Sastry, Girish and Askell, Amanda and others},
-  booktitle={NeurIPS},
-  year={2020}
-}
-
-% CLIP
+## CLIP
 @inproceedings{radford2021learning,
   title={Learning transferable visual models from natural language supervision},
   author={Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and others},
   booktitle={ICML},
   year={2021},
 }
+
+
+## LLaMA
+@article{hugo2023llama,
+  title={LLaMA: Open and Efficient Foundation Language Models},
+  author={Touvron, Hugo and Lavril, Thibaut and Izacard, Gautier and Martinet, Xavier and Lachaux, MarieAnne and Lacroix, Timothe and Rozire, Baptiste and Goyal, Naman and Hambro, Eric and Azhar, Faisal and Rodriguez, Aurelien and Joulin, Armand and Grave, Edouard and Lample, Guillaume},
+  year={2023},
+  journal={arXiv preprint arXiv:2302.13971},
+}
+
+
+@article{hugo2023llama2,
+  title={Llama 2: Open Foundation and Fine-Tuned Chat Models},
+  author={Touvron, Hugo and Martin, Louis and Stone, Kevin and Albert, Peter and Almahairi, Amjad and Babaei, Yasmine and Bashlykov, Nikolay and Batra, Soumya and Bhargava, Prajjwal and Bhosale, Shruti and Bikel, Dan and Blecher, Lukas and Ferrer, Cristian Canton and Chen, Moya and Cucurull, Guillem and Esiobu, David and Fernandes, Jude and Fu, Jeremy and Fu, Wenyin and Fuller, Brian and Gao, Cynthia and Goswami, Vedanuj and Goyal, Naman and Hartshorn, Anthony and Hosseini, Saghar and Hou, Rui and Inan, Hakan and Kardas, Marcin and Kerkez, Viktor and Khabsa, Madian and Kloumann, Isabel and Korenev, Artem and Koura, Punit Singh and Lachaux, MarieAnne and Lavril, Thibaut and Lee, Jenya and Liskovich, Diana and Lu, Yinghai and Mao, Yuning and Martinet, Xavier and Mihaylov, Todor and Mishra, Pushkar and Molybog, Igor and Nie, Yixin and Poulton, Andrew and Reizenstein, Jeremy and Rungta, Rashi and Saladi, Kalyan and Schelten, Alan and Silva, Ruan and Smith, Eric Michael and Subramanian, Ranjan and Tan, Xiaoqing Ellen and Tang, Binh and Taylor, Ross and Williams, Adina and Kuan, Jian Xiang and Xu, Puxin and Yan, Zheng and Zarov, Iliyan and Zhang, Yuchen and Fan, Angela and Kambadur, Melanie and Narang, Sharan and Rodriguez, Aurelien and Stojnic, Robert and Edunov, Sergey and Scialom, Thomas},
+  year={2023},
+  journal={arXiv preprint arXiv:2307.09288},
+}
+
+@article{aaron2024llama3,
+  title={The Llama 3 Herd of Models},
+  author={Grattafiori, Aaron and Dubey, Abhimanyu and Jauhri, Abhinav and Pandey, Abhinav and Kadian, Abhishek and AlDahle, Ahmad and Letman, Aiesha and Mathur, Akhil and Schelten, Alan and Vaughan, Alex and Yang, Amy and Fan, Angela and Goyal, Anirudh and Hartshorn, Anthony and Yang, Aobo and Mitra, Archi and Sravankumar, Archie and Korenev, Artem and Hinsvark, Arthur and Rao, Arun and Zhang, Aston and Rodriguez, Aurelien and Gregerson, Austen and Spataru, Ava and Roziere, Baptiste and Biron, Bethany and Tang, Binh and Chern, Bobbie and Caucheteux, Charlotte and Nayak, Chaya and al., et},
+  year={2024},
+  journal={arXiv preprint arXiv:2407.21783},
+}
+
+
+
+
+
+## BLIP
+@article{li2022blip,
+  title={BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation},
+  author={Junnan Li and Dongxu Li and Caiming Xiong and Steven Hoi},
+  year={2022},
+  journal={arXiv preprint arXiv:2201.12086},
+}
+
+
+## InstructBLIP
+@article{dai2023instructblip,
+  title={InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning},
+  author={Dai, Wenliang and Li, Junnan and Li, Dongxu and Tiong, Anthony Meng Huat and Zhao, Junqi and Wang, Weisheng and Li, Boyang and Fung, Pascale and Hoi, Steven},
+  year={2023},
+  journal={arXiv preprint arXiv:2305.06500},
+}
+
+
+## llava
+@inproceedings{liu2023visual,
+  title={Visual Instruction Tuning},
+  author={Haotian Liu and Chunyuan Li and Qingyang Wu and Yong Jae Lee},
+  year={2023},
+  booktitle={NeurIPS},
+}
+
+
+@inproceedings{wu2023next,
+  title={NExT-GPT: Any-to-Any Multimodal LLM},
+  author={Shengqiong Wu and Hao Fei and Leigang Qu and Wei Ji and TatSeng Chua},
+  year={2023},
+  booktitle={ICML},
+}
+
+@article{panagopoulou2023x,
+  title={X-InstructBLIP: A Framework for aligning X-Modal instruction-aware representations to LLMs and Emergent Cross-modal Reasoning},
+  author={Artemis Panagopoulou and Le Xue and Ning Yu and Junnan Li and Dongxu Li and Shafiq Joty and Ran Xu and Silvio Savarese and Caiming Xiong and Juan Carlos Niebles},
+  year={2023},
+  journal={arXiv preprint arXiv:2311.18799},
+}
+
+
+
 % -- Foundation models (End)
 
 
@@ -4556,7 +4716,7 @@ Plenoxels: Radiance fields without neural networks.
 @inproceedings{wu2022cross,
   title={Cross-document misinformation detection based on event graph reasoning},
   author={Wu, Xueqing and Huang, Kung-Hsiang and Fung, Yi and Ji, Heng},
-  booktitle=NAACL,
+  booktitle={NAACL},
   year={2022}
 }
 
@@ -4570,35 +4730,35 @@ Plenoxels: Radiance fields without neural networks.
 @inproceedings{nan2021mdfend,
   title={MDFEND: Multi-domain fake news detection},
   author={Nan, Qiong and Cao, Juan and Zhu, Yongchun and Wang, Yanyan and Li, Jintao},
-  booktitle=CIKM,
+  booktitle={CIKM},
   year={2021}
 }
 
 @inproceedings{li2021future,
   title={The future is not one-dimensional: Complex event schema induction by graph modeling for event prediction},
   author={Li, Manling and Li, Sha and Wang, Zhenhailong and Huang, Lifu and Cho, Kyunghyun and Ji, Heng and Han, Jiawei and Voss, Clare},
-  booktitle=EMNLP,
+  booktitle={EMNLP},
   year={2021}
 }
 
 @inproceedings{fung2021infosurgeon,
   title={Infosurgeon: Cross-media fine-grained information consistency checking for fake news detection},
   author={Fung, Yi and Thomas, Christopher and Reddy, Revanth Gangi and Polisetty, Sandeep and Ji, Heng and Chang, Shih-Fu and McKeown, Kathleen and Bansal, Mohit and Sil, Avirup},
-  booktitle=IJCNLP,
+  booktitle={IJCNLP},
   year={2021}
 }
 
 @inproceedings{lin2020joint,
   title={A joint neural model for information extraction with global features},
   author={Lin, Ying and Ji, Heng and Huang, Fei and Wu, Lingfei},
-  booktitle=ACL,
+  booktitle={ACL},
   year={2020}
 }
 
 @inproceedings{karimi2019learning,
   title={Learning hierarchical discourse-level structure for fake news detection},
   author={Karimi, Hamid and Tang, Jiliang},
-  booktitle=NAACL,
+  booktitle={NAACL},
   year={2019}
 }
 
@@ -4629,32 +4789,28 @@ Plenoxels: Radiance fields without neural networks.
 @inproceedings{huang2020biomedical,
   title={Biomedical Event Extraction with Hierarchical Knowledge Graphs},
   author={Huang, Kung-Hsiang and Yang, Mu and Peng, Nanyun},
-  booktitle=EMNLP,
+  booktitle={EMNLP},
   year={2020}
 }
 
 @inproceedings{yasunaga2021qa,
   title={QA-GNN: Reasoning with Language Models and Knowledge Graphs for Question Answering},
   author={Yasunaga, Michihiro and Ren, Hongyu and Bosselut, Antoine and Liang, Percy and Leskovec, Jure},
-  booktitle=NAACL,
+  booktitle={NAACL},
   year={2021}
 }
 
 @inproceedings{yang2022reinforcement,
   title={Reinforcement Subgraph Reasoning for Fake News Detection},
   author={Yang, Ruichao and Wang, Xiting and Jin, Yiqiao and Li, Chaozhuo and Lian, Jianxun and Xie, Xing},
-  booktitle={Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
-  pages={2253--2262},
+  booktitle={ACM SIGKDD},
   year={2022}
 }
 
 @inproceedings{jin2022towards,
   title={Towards fine-grained reasoning for fake news detection},
   author={Jin, Yiqiao and Wang, Xiting and Yang, Ruichao and Sun, Yizhou and Wang, Wei and Liao, Hao and Xie, Xing},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  volume={36},
-  number={5},
-  pages={5746--5754},
+  booktitle={AAAI},
   year={2022}
 }
 
@@ -4676,7 +4832,7 @@ Plenoxels: Radiance fields without neural networks.
 @inproceedings{guo2019star,
   title={Star-Transformer},
   author={Guo, Qipeng and Qiu, Xipeng and Liu, Pengfei and Shao, Yunfan and Xue, Xiangyang and Zhang, Zheng},
-  booktitle=NAACL,
+  booktitle={NAACL},
   year={2019}
 }
 
@@ -4734,7 +4890,7 @@ Plenoxels: Radiance fields without neural networks.
 @inproceedings{karimi2018multi,
   title={Multi-source multi-class fake news detection},
   author={Karimi, Hamid and Roy, Proteek and Saba-Sadiya, Sari and Tang, Jiliang},
-  booktitle=COLING,
+  booktitle={COLING},
   year={2018}
 }
 
@@ -4748,7 +4904,7 @@ Plenoxels: Radiance fields without neural networks.
 @inproceedings{jin2022towards,
   title={Towards fine-grained reasoning for fake news detection},
   author={Jin, Yiqiao and Wang, Xiting and Yang, Ruichao and Sun, Yizhou and Wang, Wei and Liao, Hao and Xie, Xing},
-  booktitle=AAAI,
+  booktitle={AAAI},
   year={2022}
 }
 
@@ -4857,7 +5013,7 @@ Plenoxels: Radiance fields without neural networks.
   year={2022}
 }
 
-@inproceedings{salimansprogressive,
+@inproceedings{salimans2022progressive,
   title={Progressive Distillation for Fast Sampling of Diffusion Models},
   author={Salimans, Tim and Ho, Jonathan},
   booktitle={ICLR},
@@ -4872,6 +5028,7 @@ Plenoxels: Radiance fields without neural networks.
 }
 
 
+## DDIM
 @inproceedings{song2021denoising,
   title={Denoising diffusion implicit models},
   author={Song, Jiaming and Meng, Chenlin and Ermon, Stefano},
@@ -4879,18 +5036,18 @@ Plenoxels: Radiance fields without neural networks.
   year={2021}
 }
 
-@article{ho2020denoising,
+## DDPM
+@inproceedings{ho2020denoising,
   title={Denoising diffusion probabilistic models},
   author={Ho, Jonathan and Jain, Ajay and Abbeel, Pieter},
-  journal=NIPS,
+  booktitle={NeurIPS},
   year={2020}
 }
 
 @inproceedings{zhang2023sine,
   title={Sine: Single image editing with text-to-image diffusion models},
   author={Zhang, Zhixing and Han, Ligong and Ghosh, Arnab and Metaxas, Dimitris N and Ren, Jian},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={6027--6037},
+  booktitle={CVPR},
   year={2023}
 }
 
@@ -4901,13 +5058,6 @@ Plenoxels: Radiance fields without neural networks.
   year={2020}
 }
 
-@inproceedings{ldm,
-  title={High-resolution image synthesis with latent diffusion models},
-  author={Rombach, Robin and Blattmann, Andreas and Lorenz, Dominik and Esser, Patrick and Ommer, Bj{\"o}rn},
-  booktitle={CVPR},
-  year={2022}
-}
-
 @article{ediffi,
   title={ediffi: Text-to-image diffusion models with an ensemble of expert denoisers},
   author={Balaji, Yogesh and Nah, Seungjun and Huang, Xun and Vahdat, Arash and Song, Jiaming and Kreis, Karsten and Aittala, Miika and Aila, Timo and Laine, Samuli and Catanzaro, Bryan and others},
@@ -4915,21 +5065,17 @@ Plenoxels: Radiance fields without neural networks.
   year={2022}
 }
 
-@article{imagen,
+@inproceedings{imagen,
   title={Photorealistic text-to-image diffusion models with deep language understanding},
   author={Saharia, Chitwan and Chan, William and Saxena, Saurabh and Li, Lala and Whang, Jay and Denton, Emily L and Ghasemipour, Kamyar and Gontijo Lopes, Raphael and Karagol Ayan, Burcu and Salimans, Tim and others},
-  journal={Advances in Neural Information Processing Systems},
-  volume={35},
-  pages={36479--36494},
+  booktitle={NeurIPS},
   year={2022}
 }
 
-@article{dhariwal2021diffusion,
+@inproceedings{dhariwal2021diffusion,
   title={Diffusion models beat gans on image synthesis},
   author={Dhariwal, Prafulla and Nichol, Alexander},
-  journal={Advances in Neural Information Processing Systems},
-  volume={34},
-  pages={8780--8794},
+  booktitle={NeurIPS},
   year={2021}
 }
 
@@ -4943,10 +5089,8 @@ Plenoxels: Radiance fields without neural networks.
 @inproceedings{dalle,
   title={Zero-shot text-to-image generation},
   author={Ramesh, Aditya and Pavlov, Mikhail and Goh, Gabriel and Gray, Scott and Voss, Chelsea and Radford, Alec and Chen, Mark and Sutskever, Ilya},
-  booktitle={International Conference on Machine Learning},
-  pages={8821--8831},
+  booktitle={ICML},
   year={2021},
-  organization={PMLR}
 }
 
 @article{dalle2,
@@ -4954,6 +5098,29 @@ Plenoxels: Radiance fields without neural networks.
   author={Ramesh, Aditya and Dhariwal, Prafulla and Nichol, Alex and Chu, Casey and Chen, Mark},
   journal={arXiv preprint arXiv:2204.06125},
   year={2022}
+}
+
+
+## DIT
+@inproceedings{peebles2022scalable,
+  title={Scalable Diffusion Models with Transformers},
+  author={William Peebles and Saining Xie},
+  year={2023},
+  booktitle={ICCV},
+}
+
+@inproceedings{sora,
+  title = {{SoRA}},
+  author = {OpenAI},
+  year = {2024},
+  booktitle = {Blog: https://openai.com/sora},
+}
+
+@inproceedings{flux,
+  title = {{Introducing FLUX.1 Tools}},
+  author = {BlackForestLabs},
+  year = {2024},
+  booktitle = {Blog: https://blackforestlabs.ai/flux-1-tools},
 }
 
 @article{yu2022scaling,
@@ -4999,14 +5166,20 @@ Plenoxels: Radiance fields without neural networks.
   year={2022}
 }
 
-@article{dao2022flashattention,
+@inproceedings{dao2022flashattention,
   title={Flashattention: Fast and memory-efficient exact attention with io-awareness},
   author={Dao, Tri and Fu, Dan and Ermon, Stefano and Rudra, Atri and R{\'e}, Christopher},
-  journal={Advances in Neural Information Processing Systems},
-  volume={35},
-  pages={16344--16359},
+  booktitle={NeurIPS},
   year={2022}
 }
+
+@inproceedings{kwon2023efficient,
+  title={Efficient Memory Management for Large Language Model Serving with PagedAttention},
+  author={Woosuk Kwon and Zhuohan Li and Siyuan Zhuang and Ying Sheng and Lianmin Zheng and Cody Hao Yu and Joseph E. Gonzalez and Hao Zhang and Ion Stoica},
+  year={2023},
+  booktitle={SOSP},
+}
+
 
 @inproceedings{li2022efficientformer,
   title={EfficientFormer: Vision Transformers at MobileNet Speed},
@@ -5015,18 +5188,17 @@ Plenoxels: Radiance fields without neural networks.
   year={2022}
 }
 
-@article{li2022rethinking,
+@inproceedings{li2022rethinking,
   title={Rethinking Vision Transformers for MobileNet Size and Speed},
   author={Li, Yanyu and Hu, Ju and Wen, Yang and Evangelidis, Georgios and Salahi, Kamyar and Wang, Yanzhi and Tulyakov, Sergey and Ren, Jian},
-  journal={arXiv preprint arXiv:2212.08059},
-  year={2022}
+  booktitle={ICCV},
+  year={2023}
 }
 
 @inproceedings{jin2021teachers,
   title={Teachers do more than teach: Compressing image-to-image models},
   author={Jin, Qing and Ren, Jian and Woodford, Oliver J and Wang, Jiazhuo and Yuan, Geng and Wang, Yanzhi and Tulyakov, Sergey},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={13600--13611},
+  booktitle={CVPR},
   year={2021}
 }
 
@@ -5084,7 +5256,7 @@ Plenoxels: Radiance fields without neural networks.
 @inproceedings{watson2022learning,
   title={Learning fast samplers for diffusion models by differentiating through sample quality},
   author={Watson, Daniel and Chan, William and Ho, Jonathan and Norouzi, Mohammad},
-  booktitle={International Conference on Learning Representations},
+  booktitle={ICLR},
   year={2022}
 }
 
@@ -5112,8 +5284,7 @@ Plenoxels: Radiance fields without neural networks.
 @inproceedings{lugmayr2022repaint,
   title={Repaint: Inpainting using denoising diffusion probabilistic models},
   author={Lugmayr, Andreas and Danelljan, Martin and Romero, Andres and Yu, Fisher and Timofte, Radu and Van Gool, Luc},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={11461--11471},
+  booktitle={CVPR},
   year={2022}
 }
 
@@ -5200,13 +5371,6 @@ URL = {https://www.qualcomm.com/news/onq/2023/02/worlds-first-on-device-demonstr
   year={2021}
 }
 
-@inproceedings{radford2021learning,
-  title={Learning transferable visual models from natural language supervision},
-  author={Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and others},
-  booktitle={ICML},
-  year={2021}
-}
-
 @article{kingma2013auto,
   title={Auto-encoding variational bayes},
   author={Kingma, Diederik P and Welling, Max},
@@ -5272,10 +5436,53 @@ URL = {https://www.qualcomm.com/news/onq/2023/02/worlds-first-on-device-demonstr
   year={2023}
 }
 
+@inproceedings{ma2023llm,
+  title={LLM-Pruner: On the Structural Pruning of Large Language Models},
+  author={Xinyin Ma and Gongfan Fang and Xinchao Wang},
+  year={2023},
+  booktitle={NeurIPS},
+}
+
+@inproceedings{xia2024sheared,
+  title={Sheared LLaMA: Accelerating Language Model Pre-training via Structured Pruning},
+  author={Mengzhou Xia and Tianyu Gao and Zhiyuan Zeng and Danqi Chen},
+  year={2024},
+  booktitle={ICLR},
+}
+
+@inproceedings{frantar2023gptq,
+  title={GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers},
+  author={Elias Frantar and Saleh Ashkboos and Torsten Hoefler and Dan Alistarh},
+  year={2023},
+  booktitle={ICLR},
+}
+
+@inproceedings{xiao2023smoothquant,
+  title={SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models},
+  author={Guangxuan Xiao and Ji Lin and Mickael Seznec and Hao Wu and Julien Demouth and Song Han},
+  year={2023},
+  booktitle={ICML},
+}
+
+@inproceedings{lin2024awq,
+  title={AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration},
+  author={Ji Lin and Jiaming Tang and Haotian Tang and Shang Yang and WeiMing Chen and WeiChen Wang and Guangxuan Xiao and Xingyu Dang and Chuang Gan and Song Han},
+  year={2024},
+  booktitle={MLSys},
+}
+
+@inproceedings{jiao2020tinybert,
+  title={TinyBERT: Distilling BERT for Natural Language Understanding},
+  author={Xiaoqi Jiao and Yichun Yin and Lifeng Shang and Xin Jiang and Xiao Chen and Linlin Li and Fang Wang and Qun Liu},
+  year={2020},
+  booktitle={EMNLP},
+}
+
+
 @inproceedings{chen2020self,
   title={On Self-Distilling Graph Neural Network},
   author={Chen, Yuzhao and Bian, Yatao and Xiao, Xi and Rong, Yu and Xu, Tingyang and Huang, Junzhou},
-  booktitle=IJCAI,
+  booktitle={IJCAI},
   year={2020}
 }
 
@@ -5288,7 +5495,7 @@ URL = {https://www.qualcomm.com/news/onq/2023/02/worlds-first-on-device-demonstr
 @inproceedings{dun2021kan,
   title={Kan: Knowledge-aware attention network for fake news detection},
   author={Dun, Yaqian and Tu, Kefei and Chen, Chen and Hou, Chunyan and Yuan, Xiaojie},
-  booktitle=AAAI,
+  booktitle={AAAI},
   year={2021}
 }
 
@@ -5302,13 +5509,320 @@ URL = {https://www.qualcomm.com/news/onq/2023/02/worlds-first-on-device-demonstr
 @inproceedings{mao2022unipelt,
   title={UniPELT: A Unified Framework for Parameter-Efficient Language Model Tuning},
   author={Mao, Yuning and Mathias, Lambert and Hou, Rui and Almahairi, Amjad and Ma, Hao and Han, Jiawei and Yih, Scott and Khabsa, Madian},
-  booktitle=ACL,
+  booktitle={ACL},
   year={2022}
 }
 
 @inproceedings{he2021efficient,
   title={Efficient Nearest Neighbor Language Models},
   author={He, Junxian and Neubig, Graham and Berg-Kirkpatrick, Taylor},
-  booktitle=EMNLP,
+  booktitle={EMNLP},
   year={2021}
 }
+
+@article{feng2024oracle,
+  title={Is Oracle Pruning the True Oracle?},
+  author={Feng, Sicheng and Tao, Keda and Wang, Huan},
+  journal={arXiv preprint arXiv:2412.00143},
+  year={2024}
+}
+
+
+# #GRU
+@inproceedings{chung2014empirical,
+  title={Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling},
+  author={Junyoung Chung and Caglar Gulcehre and KyungHyun Cho and Yoshua Bengio},
+  year={2014},
+  booktitle={NeurIPS Workshop},
+}
+
+# #LSTM
+@article{hochreiter1997long,
+  author = {Hochreiter, Sepp and Schmidhuber, J\"{u}rgen},
+  title = {Long Short-Term Memory},
+  year = {1997},
+  volume = {9},
+  number = {8},
+  journal = {Neural Computation},
+  pages = {1735–1780},
+  numpages = {46}
+}
+
+@article{mikolov2013distributed,
+  title={Distributed Representations of Words and Phrases and their Compositionality},
+  author={Tomas Mikolov and Ilya Sutskever and Kai Chen and Greg Corrado and Jeffrey Dean},
+  year={2013},
+  journal={arXiv preprint arXiv:1310.4546},
+}
+
+@inproceedings{pennington2014glove,
+  title={Glove: Global vectors for word representation},
+  author={Pennington, Jeffrey and Socher, Richard and Manning, Christopher D},
+  booktitle={EMNLP},
+  year={2014}
+}
+
+## DETR
+@article{carion2020end,
+  title={End-to-End Object Detection with Transformers},
+  author={Nicolas Carion and Francisco Massa and Gabriel Synnaeve and Nicolas Usunier and Alexander Kirillov and Sergey Zagoruyko},
+  year={2020},
+  journal={arXiv preprint arXiv:2005.12872},
+}
+
+## SETR
+@inproceedings{zheng2021rethinking,
+  title={Rethinking semantic segmentation from a sequence-to-sequence perspective with transformers},
+  author={Zheng, Sixiao and Lu, Jiachen and Zhao, Hengshuang and Zhu, Xiatian and Luo, Zekun and Wang, Yabiao and Fu, Yanwei and Feng, Jianfeng and Xiang, Tao and Torr, Philip HS and others},
+  booktitle={CVPR},
+  year={2021}
+}
+
+
+## DINO
+@inproceedings{zhang2023dino,
+  title={DINO: DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection},
+  author={Hao Zhang and Feng Li and Shilong Liu and Lei Zhang and Hang Su and Jun Zhu and Lionel M. Ni and HeungYeung Shum},
+  year={2023},
+  booktitle={ICLR},
+}
+
+
+## Gemini
+@article{anil2023gemini,
+  title={Gemini: A Family of Highly Capable Multimodal Models},
+  author={Gemini Team Google Rohan Anil and Sebastian Borgeaud and JeanBaptiste Alayrac and Jiahui Yu and Radu Soricut and Johan Schalkwyk and Andrew M. Dai and Anja Hauth and Katie Millican and David Silver and Melvin Johnson and Ioannis Antonoglou and Julian Schrittwieser and Amelia Glaese and Jilin Chen and Emily Pitler and Timothy Lillicrap and Angeliki Lazaridou and Orhan Firat and James Molloy and Michael Isard and Paul R. Barham and Tom Hennigan and Benjamin Lee and Fabio Viola and Malcolm Reynolds and Yuanzhong Xu and Ryan Doherty and Eli Collins and Clemens Meyer and et al.},
+  year={2023},
+  journal={arXiv preprint arXiv:2312.11805},
+}
+
+
+@article{li2024mini,
+  title={Mini-Gemini: Mining the Potential of Multi-modality Vision Language Models},
+  author={Yanwei Li and Yuechen Zhang and Chengyao Wang and Zhisheng Zhong and Yixin Chen and Ruihang Chu and Shaoteng Liu and Jiaya Jia},
+  year={2024},
+  journal={arXiv preprint arXiv:2403.18814},
+}
+
+
+@article{bai2023qwen,
+  title={Qwen Technical Report},
+  author={Jinze Bai and Shuai Bai and Yunfei Chu and Zeyu Cui and Kai Dang and Xiaodong Deng and Yang Fan and Wenbin Ge and Yu Han and Fei Huang and Binyuan Hui and Luo Ji and Mei Li and Junyang Lin and Runji Lin and Dayiheng Liu and Gao Liu and Chengqiang Lu and Keming Lu and Jianxin Ma and Rui Men and Xingzhang Ren and Xuancheng Ren and Chuanqi Tan and Sinan Tan and Jianhong Tu and Peng Wang and Shijie Wang and Wei Wang and Shengguang Wu and et al.},
+  year={2023},
+  journal={arXiv preprint arXiv:2309.16609},
+}
+
+
+@article{liu2023llava,
+  title={LLaVA-Plus: Learning to Use Tools for Creating Multimodal Agents},
+  author={Shilong Liu and Hao Cheng and Haotian Liu and Hao Zhang and Feng Li and Tianhe Ren and Xueyan Zou and Jianwei Yang and Hang Su and Jun Zhu and Lei Zhang and Jianfeng Gao and Chunyuan Li},
+  year={2023},
+  journal={arXiv preprint arXiv:2311.05437},
+}
+
+@article{zheng2023minigpt,
+  title={MiniGPT-5: Interleaved Vision-and-Language Generation via Generative Vokens},
+  author={Kaizhi Zheng and Xuehai He and Xin Eric Wang},
+  year={2023},
+  journal={arXiv preprint arXiv:2310.02239},
+}
+
+## CM3
+@article{armen2022cm3,
+  title={CM3: A Causal Masked Multimodal Model of the Internet},
+  author={Aghajanyan, Armen and Huang, Bernie and Ross, Candace and Karpukhin, Vladimir and Xu, Hu and Goyal, Naman and Okhonko, Dmytro and Joshi, Mandar and Ghosh, Gargi and Lewis, Mike and Zettlemoyer, Luke},
+  year={2022},
+  journal={arXiv preprint arXiv:2201.07520},
+}
+
+
+## RA-CM3
+@inproceedings{yasunaga2023retrieval,
+  title={Retrieval-Augmented Multimodal Language Modeling},
+  author={Michihiro Yasunaga and Armen Aghajanyan and Weijia Shi and Rich James and Jure Leskovec and Percy Liang and Mike Lewis and Luke Zettlemoyer and Wentau Yih},
+  year={2023},
+  booktitle={ICML},
+}
+
+## CM3Leon
+@article{yu2023scaling,
+  title={Scaling Autoregressive Multi-Modal Models: Pretraining and Instruction Tuning},
+  author={Lili Yu and Bowen Shi and Ramakanth Pasunuru and Benjamin Muller and Olga Golovneva and Tianlu Wang and Arun Babu and Binh Tang and Brian Karrer and Shelly Sheynin and Candace Ross and Adam Polyak and Russell Howes and Vasu Sharma and Puxin Xu and Hovhannes Tamoyan and Oron Ashual and Uriel Singer and ShangWen Li and Susan Zhang and Richard James and Gargi Ghosh and Yaniv Taigman and Maryam FazelZarandi and Asli Celikyilmaz and Luke Zettlemoyer and Armen Aghajanyan},
+  year={2023},
+  journal={arXiv preprint arXiv:2309.02591},
+}
+
+## EMU3
+@article{wang2024emu3,
+  title={Emu3: Next-Token Prediction is All You Need},
+  author={Xinlong Wang and Xiaosong Zhang and Zhengxiong Luo and Quan Sun and Yufeng Cui and Jinsheng Wang and Fan Zhang and Yueze Wang and Zhen Li and Qiying Yu and Yingli Zhao and Yulong Ao and Xuebin Min and Tao Li and Boya Wu and Bo Zhao and Bowen Zhang and Liangdong Wang and Guang Liu and Zheqi He and Xi Yang and Jingjing Liu and Yonghua Lin and Tiejun Huang and Zhongyuan Wang},
+  year={2024},
+  journal={arXiv preprint arXiv:2409.18869},
+} 
+}
+
+@inproceedings{zhang2024slicing,
+  title={Slicing Vision Transformer for Flexible Inference},
+  author={Yitian Zhang and Huseyin Coskun and Xu Ma and Huan Wang and Ke Ma and Xi StephenChen and Derek Hao Hu and Yun Fu},
+  year={2024},
+  booktitle={NeurIPS},
+}
+
+
+## DeepSeek, DeepSeekMoE
+@article{deepseekai2024deepseek,
+  title={DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model},
+  author={DeepSeekAI and Aixin Liu and Bei Feng and Bin Wang and Bingxuan Wang and Bo Liu and Chenggang Zhao and Chengqi Dengr and Chong Ruan and Damai Dai and Daya Guo and Dejian Yang and Deli Chen and Dongjie Ji and Erhang Li and Fangyun Lin and Fuli Luo and Guangbo Hao and Guanting Chen and Guowei Li and H. Zhang and Hanwei Xu and Hao Yang and Haowei Zhang and Honghui Ding and Huajian Xin and Huazuo Gao and Hui Li and Hui Qu and J.L. Cai and et al.},
+  year={2024},
+  journal={arXiv preprint arXiv:2405.04434},
+}
+
+@inproceedings{elhoushi2024layerskip,
+  title={LayerSkip: Enabling Early Exit Inference and Self-Speculative Decoding},
+  author={Mostafa Elhoushi and Akshat Shrivastava and Diana Liskovich and Basil Hosmer and Bram Wasti and Liangzhen Lai and Anas Mahmoud and Bilge Acun and Saurabh Agarwal and Ahmed Roman and Ahmed A Aly and Beidi Chen and CaroleJean Wu},
+  year={2024},
+  booktitle={ACL},
+}
+
+
+## KV Cache
+@article{pope2022efficiently,
+  title={Efficiently Scaling Transformer Inference},
+  author={Reiner Pope and Sholto Douglas and Aakanksha Chowdhery and Jacob Devlin and James Bradbury and Anselm Levskaya and Jonathan Heek and Kefan Xiao and Shivani Agrawal and Jeff Dean},
+  year={2022},
+  journal={arXiv preprint arXiv:2211.05102},
+}
+
+@inproceedings{denil2013predicting,
+  title={Predicting Parameters in Deep Learning},
+  author={Misha Denil and Babak Shakibi and Laurent Dinh and MarcAurelio Ranzato and Nando de Freitas},
+  year={2013},
+  booktitle={NeurIPS},
+}
+
+
+@inproceedings{romero2015fitnets,
+  title={FitNets: Hints for Thin Deep Nets},
+  author={Adriana Romero and Nicolas Ballas and Samira Ebrahimi Kahou and Antoine Chassang and Carlo Gatta and Yoshua Bengio},
+  year={2015},
+  booktitle={ICLR},
+}
+
+@inproceedings{sutskever2023observation,
+  title={An Observation on Generalization},
+  author={Ilya Sutskever},
+  year={2023},
+  booktitle={Workshop on Large Language Models and Transformers (Simons Institute)},
+  howpublished={\url{https://simons.berkeley.edu/talks/ilya-sutskever-openai-2023-08-14}},
+}
+
+@article{kolmogorov1963tables,
+  title={On tables of random numbers},
+  author={Kolmogorov, Andrei N},
+  journal={Sankhy{\=a}: The Indian Journal of Statistics, Series A},
+  pages={369--376},
+  year={1963},
+}
+
+@book{vapnik2013nature,
+  title={The nature of statistical learning theory},
+  author={Vapnik, Vladimir},
+  year={2013},
+  publisher={Springer science \& business media}
+}
+
+@article{kaushal2023lord,
+  title={LORD: Low Rank Decomposition Of Monolingual Code LLMs For One-Shot Compression},
+  author={Ayush Kaushal and Tejas Vaidhya and Irina Rish},
+  year={2023},
+  journal={arXiv preprint arXiv:2309.14021},
+}
+
+@inproceedings{hu2022lora,
+  title={LoRA: Low-Rank Adaptation of Large Language Models},
+  author={Edward J. Hu and Yelong Shen and Phillip Wallis and Zeyuan AllenZhu and Yuanzhi Li and Shean Wang and Lu Wang and Weizhu Chen},
+  year={2022},
+  booktitle={ICLR},
+}
+
+@article{yin2023survey,
+  title={A Survey on Multimodal Large Language Models},
+  author={Shukang Yin and Chaoyou Fu and Sirui Zhao and Ke Li and Xing Sun and Tong Xu and Enhong Chen},
+  year={2023},
+  journal={arXiv preprint arXiv:2306.13549},
+}
+
+
+## ToMe
+@inproceedings{bolya2023token,
+  title={Token Merging: Your ViT But Faster},
+  author={Daniel Bolya and ChengYang Fu and Xiaoliang Dai and Peizhao Zhang and Christoph Feichtenhofer and Judy Hoffman},
+  year={2023},
+  booktitle={ICLR},
+}
+
+@inproceedings{liu2024kivi,
+  title={KIVI: A Tuning-Free Asymmetric 2bit Quantization for KV Cache},
+  author={Zirui Liu and Jiayi Yuan and Hongye Jin and Shaochen Zhong and Zhaozhuo Xu and Vladimir Braverman and Beidi Chen and Xia Hu},
+  year={2024},
+  booktitle={ICML},
+}
+
+@article{shang2024llava,
+  title={Llava-prumerge: Adaptive token reduction for efficient large multimodal models},
+  author={Shang, Yuzhang and Cai, Mu and Xu, Bingxin and Lee, Yong Jae and Yan, Yan},
+  journal={arXiv preprint arXiv:2403.15388},
+  year={2024}
+}
+
+@inproceedings{ren2023testa,
+  title={TESTA: Temporal-Spatial Token Aggregation for Long-form Video-Language Understanding},
+  author={Shuhuai Ren and Sishuo Chen and Shicheng Li and Xu Sun and Lu Hou},
+  year={2023},
+  booktitle={EMNLP},
+}
+
+# FastV
+@inproceedings{chen2024image,
+  title={An Image is Worth 1/2 Tokens After Layer 2: Plug-and-Play Inference Acceleration for Large Vision-Language Models},
+  author={Liang Chen and Haozhe Zhao and Tianyu Liu and Shuai Bai and Junyang Lin and Chang Zhou and Baobao Chang},
+  year={2024},
+  booktitle={ECCV},
+}
+
+@article{shen2024tempme,
+  title={TempMe: Video Temporal Token Merging for Efficient Text-Video Retrieval},
+  author={Leqi Shen and Tianxiang Hao and Sicheng Zhao and Yifeng Zhang and Pengzhang Liu and Yongjun Bao and Guiguang Ding},
+  year={2024},
+  journal={arXiv preprint arXiv:2409.01156},
+}
+
+
+@inproceedings{wan2024lookm,
+      title={LOOK-M: Look-Once Optimization in KV Cache for Efficient Multimodal Long-Context Inference}, 
+      author={Zhongwei Wan and Ziang Wu and Che Liu and Jinfa Huang and Zhihong Zhu and Peng Jin and Longyue Wang and Li Yuan},
+      year={2024},
+      booktitle={EMNLP Findings},
+}
+
+@inproceedings{zhang2023h2o,
+  title={H2o: Heavy-hitter oracle for efficient generative inference of large language models},
+  author={Zhang, Zhenyu and Sheng, Ying and Zhou, Tianyi and Chen, Tianlong and Zheng, Lianmin and Cai, Ruisi and Song, Zhao and Tian, Yuandong and R{\'e}, Christopher and Barrett, Clark and others},
+  year={2023},
+  booktitle={NeurIPS},
+}
+
+@article{fu2024lazyllm,
+  title={Lazyllm: Dynamic token pruning for efficient long context llm inference},
+  author={Fu, Qichen and Cho, Minsik and Merth, Thomas and Mehta, Sachin and Rastegari, Mohammad and Najibi, Mahyar},
+  journal={arXiv preprint arXiv:2407.14057},
+  year={2024}
+}
+
+@inproceedings{zhuang2025st3,
+  title={ST$^3$: Accelerating Multimodal Large Language Model by Spatial-Temporal Visual Token Trimming},
+  author={Jiedong Zhuang and Lu Lu and Ming Dai and Rui Hu and Jian Chen and Qiang Liu and Haoji Hu},
+  year={2025},
+  booktitle={AAAI},
+}
+
